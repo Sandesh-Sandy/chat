@@ -76,11 +76,20 @@
 
 .chat_footer > form > input {
     flex: 1;
+    padding: 10px;
 }
-
+.chat_footer > form > input:focus {
+    color: blue;
+    font-weight: 900;
+    font-size: 1rem;
+}
 .chat_footer > form > button {
     background-color: #6A5ACD;
     color: wheat;
     border: 2px solid wheat;
     width: 30%;
+    cursor: pointer;
+}
+.chat_footer > form > button:hover {
+    background-color: blue;
 }

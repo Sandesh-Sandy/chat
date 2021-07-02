@@ -2,5 +2,12 @@
     background-color: #6A5ACD;
     display: flex;
     flex: 1;
-    height: 87vh;
+    height: 87.5vh;
+}
+Header {
+    height: 12.5vh;
+    border-bottom: 2px solid white;
+}
+Router {
+    margin: 0;
 }
